@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  /* Color Scheme */
+  --color-primary: #2E8B57;     /* Forest Green */
+  --color-secondary: #F4A261;   /* Warm Tan */
+  --color-accent: #E76F51;      /* Rustic Red */
+  --color-bg: #FAF9F6;          /* Light Neutral */
+  --color-text: #333333;        /* Dark Gray */
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
